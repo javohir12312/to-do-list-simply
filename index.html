@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title><!-- CSS only -->
+  <link rel="stylesheet" href="main.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+</head>
+
+<body>
+
+  <div class="d-flex">
+    <div class="header w-25 p-4">
+      <label class="d-flex text-decoration-none text-muted" href="index.html">
+        <img src="img/logo.svg" alt="logo">
+        <h2 class="m-xl-3">
+          Dashboard Kit
+        </h2>
+      </label>
+
+      <ul class="header__list list-unstyled">
+        <li class="header__item">
+          <label for="radio">
+            <input class="radio d-none" type="radio" name="radio" id="radio">
+            <label class="label d-flex text-decoration-none align-items-center text-muted" href="#">
+              <img src="img/vector-1.png" alt="">
+              <h4 class="m-xl-3">
+                Overview
+              </h4>
+            </label>
+          </label>
+        </li>
+        <li class="header__item">
+          <label for="radio">
+            <input class="radio d-none" type="radio" name="radio" id="radio">
+            <label class="label d-flex text-decoration-none align-items-center text-muted" href="#">
+              <img src="img/vector-2.png" alt="">
+              <h4 class="m-xl-3">
+                Tickets
+              </h4>
+            </label>
+          </label>
+        </li>
+        <li class="header__item">
+          <label for="radio">
+            <input class="radio d-none" type="radio" name="radio" id="radio">
+            <label class="label d-flex text-decoration-none align-items-center text-muted" href="#">
+              <img src="img/vector-3.png" alt="">
+              <h4 class="m-xl-3">
+                Ideas
+              </h4>
+            </label>
+          </label>
+        </li>
+        <li class="header__item">
+          <label for="radio">
+            <input class="radio d-none" type="radio" name="radio" id="radio">
+            <label class="label d-flex text-decoration-none align-items-center text-muted" href="#">
+              <img src="img/vector-4.png" alt="">
+              <h4 class="m-xl-3">
+                Contacts
+              </h4>
+            </label>
+          </label>
+        </li>
+        <li class="header__item">
+          <label for="radio">
+            <input class="radio d-none" type="radio" name="radio" id="radio">
+            <label class="label d-flex text-decoration-none align-items-center text-muted" href="#">
+              <img src="img/vector-5.png" alt="">
+              <h4 class="m-xl-3">
+                Agents
+              </h4>
+            </label>
+          </label>
+        </li>
+        <li class="header__item">
+          <label for="radio">
+            <input class="radio d-none" type="radio" name="radio" id="radio">
+            <label class="label d-flex text-decoration-none align-items-center text-muted" href="#">
+              <img src="img/vector-6.png" alt="">
+              <h4 class="m-xl-3">
+                Articles
+              </h4>
+            </label>
+          </label>
+        </li>
+      </ul>
+    </div>
+
+    <div class="w-100">
+      <div class="top__header d-flex justify-content-between w-100 align-content-center">
+
+        <h3 class="mx-4">
+          Tickets
+        </h3>
+
+        <ul class="top__list list-unstyled d-flex justify-content-between align-content-center">
+          <li class="top__item">
+            <a class="m-3" href="#">
+              <img src="img/search.svg" alt="">
+            </a>
+          </li>
+          <li class="top__item">
+            <a class="m-3" href="#">
+              <img src="img/ball.svg" alt="">
+            </a>
+          </li>
+          <li class="top__item border-start border-3">
+            <a class="text-black text-decoration-none mx-4" href="#">
+              <span>
+                Jones Ferdinand
+              </span>
+              <img class="rounded-circle" src="img/man.svg" alt="">
+            </a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="todo">
+        <div class="todo__heading d-flex justify-content-between align-content-center mt-5">
+          <h3 class="mx-4 h5">
+            All tickets
+          </h3>
+
+          <input class="search" type="search">
+
+          <ul class="todo__list d-flex list-unstyled">
+            <li class="todo__item mx-4">
+              <select class="sort">
+                <option value="" selected hidden>SORT</option>
+                <option value="ASL XOLATI">
+                  ASL XOLATI
+                </option>
+                <option value="A-Z">A-Z</option>
+                <option value="Z-A">Z-A</option>
+              </select>
+            </li>
+            <li class="todo__item mx-4">
+              <select class="filter">
+                <option value="FILTER">FILTER</option>
+                <option value="ASL XOLATI">ASL XOLATI</option>
+                <option value="high">high</option>
+                <option value="normal">normal</option>
+                <option value="low">low</option>
+              </select>
+            </li>
+          </ul>
+        </div>
+
+        <div class="malumot d-flex justify-content-between mx-4">
+          <p>
+            Ticket details
+          </p>
+          <p>
+            Customer name
+          </p>
+          <p>
+            Date
+          </p>
+          <p>
+            Priority
+          </p>
+        </div>
+
+        <div>
+          <ul class=" res list-unstyled mx-3">
+
+          </ul>
+        </div>
+      </div>
+    </div>
+
+
+  </div>
+
+  <script type="module" src="main.js"></script>
+  <!-- JavaScript Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
